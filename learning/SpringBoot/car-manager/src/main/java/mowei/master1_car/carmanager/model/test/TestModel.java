@@ -19,11 +19,11 @@ import java.util.Date;
 
 public class TestModel extends BaseModel implements Serializable {
 
-    @Column(name = "name", nullable = false, unique = true, length = 20)
+    @Column(name = "name", unique = true, nullable = false, length = 20)
     String name;
     @Column(name = "password", nullable = false, length = 20)
     String password;
     @Column(name = "age")
-            @ColumnDefault("''")
+            @ColumnDefault("0")
     Integer age;
 }

@@ -17,11 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApiController {
     @Autowired
     private ApiService apiService;
-
-    @PostMapping(path = "filter",consumes = MediaType.APPLICATION_JSON_UTF8_VALUE,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public Object filter(@RequestBody JSONObject listen) {
-        log.info("input>>>>>>>>>filters:  {}",listen);
-        return apiService.getFilterData(listen);
-    }
+//
+//    @PostMapping(path = "filter",consumes = MediaType.APPLICATION_JSON_UTF8_VALUE,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+//    public Object filter(@RequestBody JSONObject listen) {
+//        log.info("input>>>>>>>>>filters:  {}",listen);
+//        return apiService.getFilterData(listen);
+//    }
 
 }
