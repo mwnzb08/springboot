@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/Go/src/github.com/easierway/concurrent_map" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/davecgh/go-spew" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/easierway/concurrent_map" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/go-sql-driver/mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/josharian/intern" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/julienschmidt/httprouter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/kataras/iris" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/labstack/echo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/labstack/gommon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/mailru/easyjson" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/mattn/go-colorable" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/mattn/go-isatty" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/pmezard/go-difflib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/stretchr/testify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/valyala/bytebufferpool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/github.com/valyala/fasttemplate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restudy/src/gopkg.in/yaml.v3" vcs="Git" />
+  </component>
+</project>
