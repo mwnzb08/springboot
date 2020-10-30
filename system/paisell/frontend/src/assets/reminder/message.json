@@ -1,0 +1,9 @@
+{
+  "appMsg.E001": "{0} can not be null !",
+  "appMsg.E002": "{0} already used !",
+  "appMsg.E003": "Input must be more then 6 and contain En.",
+  "appMsg.E004": "Password isn't equals to passwordCheck.",
+  "appMsg.E005": "Valid Check fail, please try again !",
+  "appMsg.E006": "User Account or Password error.",
+  "appMsg.E500": "services error, please try again !"
+}

@@ -1,0 +1,5 @@
+
+{
+  "404": "baseFunction/404",
+  "login" : "baseFunction/Login"
+}
