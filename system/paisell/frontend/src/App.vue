@@ -119,7 +119,7 @@ export default {
   margin-left: 20%;
   margin-right: 20%;
   background: #cccccc;
-  opacity: 0.6;
+  opacity: 0.9;
   height: 100%;
 }
 

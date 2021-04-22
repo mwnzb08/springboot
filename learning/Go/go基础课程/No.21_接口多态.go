@@ -3,12 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	i := new(aa)
+	//i := new(aa)
+	//i.hello()
+	//fmt.Println(i.hello())
+	//i2 := new(bb)
+	//i2.hello()
+	var i ii
+	i = aa)
 	i.hello()
-	fmt.Println(i.hello())
-	i2 := new(bb)
-	i2.hello()
-	//var i ii
 	//i = new(aa)//实例aa
 	//i.hello()
 	//i = new(bb)//实例bb
