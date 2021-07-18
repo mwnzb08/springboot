@@ -25,7 +25,7 @@ func rec2(c chan int) {
 			fmt.Println(i,"is close")
 		}(i,c)
 	}
-	chansInt(c)
+	chansInt(c) // 这样不会其他go run 一直等待?所以设置超时然后结束吧
 }
 
 func isChan(c chan int) bool {

@@ -15,7 +15,7 @@ func main() {
 }
 
 func time1s() chan string{
-	chans:=make(chan string, 1)//可以设置容量来达到不阻塞chans<-的阻塞，防止没人接收一直阻塞
+	chans:=make(chan string)//可以设置容量来达到不阻塞chans<-的阻塞，防止没人接收一直阻塞
 	go func() {
 		time.Sleep(time.Second*2)
 		chans<-"hello"//存入channel 如果没有来拿会一直阻塞在这里

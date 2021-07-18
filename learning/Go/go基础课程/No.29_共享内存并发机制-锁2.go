@@ -12,7 +12,7 @@ func main() {
 	b:=new(sync.WaitGroup)
 	d:= new(sync.RWMutex)
 	c:=0
-	for i:=0;i<10000 ;i++  {
+	for i:=0;i<100 ;i++  {
 		b.Add(1)//增加一个
 		go func() {
 			defer func() {d.Unlock()}()
